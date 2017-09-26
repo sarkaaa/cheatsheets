@@ -2,11 +2,10 @@
 
 ## Deklarace proměnné
 * Javascript je slabě typovaný jazyk (podobně jako Python), nedefinuje se typ proměnné.
-```
-var promenna = "hello world";
-var promenna = 13;
-var promenna = true; ```
----
+    - var promenna = "hello world";
+    - var promenna = 13;
+    - var promenna = true; 
+
 ## Datové typy
 ### NUMBER
   - číselné hodnoty
