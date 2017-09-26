@@ -15,23 +15,22 @@
     - 1027
 
 ### STRING
-  - textové znaky
-  
-  "Hello world!"
-  "1, 2, 3"
-  "!#^$&>"
+  - textové znaky  
+    - "Hello world!"
+    - "1, 2, 3"
+    - "!#^$&>"
 
 ### BOOLEAN
   - pravda - nepravda
-  true 1
-  false 0
+    - true 1
+    - false 0
 
 ### UNDEFINED
   - proměnná je ve stavu, kdy je deklarováná, ale zatím není ještě inicializovaná
 
 ### NULL
   - nemá žádnou hodnotu
-  null
+    - null
 
 ### OBJECT
   - objekt, kolekce vlastností
