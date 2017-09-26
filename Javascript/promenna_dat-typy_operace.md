@@ -61,5 +61,5 @@
 |TYP|POPIS|PŘÍKLAD|
 |---|-----|-------|
 | **and (&&)** | - násobení, "a zároveň" | true&&true -> true, 0&&1 -> 0, true&&false -> false |
-| **or (\| \|) | - sčítání, "nebo" | true \| \| true -> true, 1 \| \| 0 ->1, 0 \| \| 2 -> 2 |
+| **or (\| \|)** | - sčítání, "nebo" | true \| \| true -> true, 1 \| \| 0 ->1, 0 \| \| 2 -> 2 |
 | **not (!)** | - negace | !true -> false, !0 -> true|
