@@ -2,3 +2,6 @@
 
 ### Clone the repository
 ``` git clone git@github.com:sarkaaa/cheatsheets.git ```
+
+### Languages
+* [Javascript](Javascript)
