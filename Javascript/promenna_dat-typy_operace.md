@@ -1,61 +1,51 @@
-## Javascript - proměnná, datové typy, operace
+# Javascript - proměnná, datové typy, operace
 
-### Deklarace proměnné
+## Deklarace proměnné
 * Javascript je slabě typovaný jazyk (podobně jako Python), nedefinuje se typ proměnné.
 ```
 var promenna = "hello world";
 var promenna = 13;
 var promenna = true; ```
 ---
-### Datové typy
-* NUMBER
+## Datové typy
+### NUMBER
   - číselné hodnoty
   - Not a Number (NaN):
+    - 1
+    - 45
+    - 1027
 
-  ```
-  1
-  45
-  10278
-  ```
-
-* STRING
+### STRING
   - textové znaky
-  ```
+  
   "Hello world!"
   "1, 2, 3"
   "!#^$&>"
-  ```
 
-* BOOLEAN
+### BOOLEAN
   - pravda - nepravda
-  ```
   true 1
   false 0
-  ```
 
-* UNDEFINED
+### UNDEFINED
   - proměnná je ve stavu, kdy je deklarováná, ale zatím není ještě inicializovaná
 
-* NULL
+### NULL
   - nemá žádnou hodnotu
-  ```
   null
-  ```
 
-* OBJECT
+### OBJECT
   - objekt, kolekce vlastností
 
----
-### Operace
-* MATEMATICKÉ OPERACE
+## Operace
+### MATEMATICKÉ OPERACE
   - sčítání (+)
   - odečítání (-)
   - násobení (*)
   - dělení (/)
   - modulo, dělení se zbytkem (%)
 
-
-* POROVNÁVÁNÍ
+### POROVNÁVÁNÍ
 
 |TYP|POPIS|PŘÍKLAD|
 |---|-----|-------|
@@ -68,7 +58,7 @@ var promenna = true; ```
 | **menší než (<)** | - pokud je hodnota na levé straně **MENŠÍ** než hodnota na pravé straně, vrací true - porovnávané hodnoty **převádí** na stejný datový typ | 0 < 1 -> true, 3 < "" -> (0) false, 2 < 2 -> false|
 | **menší nebo rovno (<=)** | - pokud je hodnota na levé straně **MENŠÍ NEBO ROVNA** hodnotě pravé straně, vrací true - porovnávané hodnoty **převádí** na stejný datový typ | 0 <= 1 -> true, "2" <= 2 -> true, 3 <= 1-> false |
 
-* LOGICKÉ OPERÁTORY
+### LOGICKÉ OPERÁTORY
 
 |TYP|POPIS|PŘÍKLAD|
 |---|-----|-------|
